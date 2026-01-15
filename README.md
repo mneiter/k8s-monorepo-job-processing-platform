@@ -13,6 +13,12 @@ during the first days and weeks of a project.
 
 ## What this repository is
 
+This repository is actively used by the author as a personal learning
+and experimentation ground for starting new projects.
+
+The structure, decisions, and documentation reflect real trade-offs
+made during actual project bootstrapping, not a hypothetical example.
+
 This is a **thinking and structure skeleton**, demonstrated through a real project:
 a Kubernetes-based, monorepo job processing platform.
 
@@ -55,7 +61,7 @@ This skeleton is an attempt to:
 
 ## Repository structure
 
-![alt text](docs/assets/structure/{17A93FC1-3C43-4DD7-88CF-5B71FA743266}.png)
+![Project structure overview](docs/assets/structure/{17A93FC1-3C43-4DD7-88CF-5B71FA743266}.png)
 
 ---
 
@@ -102,6 +108,9 @@ The example project in this repository uses:
 - Incremental observability and scalability
 
 These choices are **documented**, not enforced.
+
+They serve as an example of how the process can be applied,
+not as a mandatory or recommended stack.
 
 ---
 
@@ -152,3 +161,18 @@ This repository will evolve.
 If the process turns out to be wrong, the process itself will be updated.
 
 That is the point.
+
+---
+
+## Disclaimer
+
+This repository is provided for educational and reference purposes only.
+
+It is not intended to be used as a production ready system, nor does it constitute
+professional, legal, or security advice.
+
+The authors make no guarantees regarding correctness, completeness, or fitness for
+any particular purpose. Use at your own risk.
+
+By using this repository, you acknowledge that you are responsible for reviewing,
+adapting, and validating any ideas or structures before applying them in real systems.
